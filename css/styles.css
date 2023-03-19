@@ -36,8 +36,8 @@ body {
 }
 
 .header-logo {
-  font-family: 'Raleway',  sans-serif";
-  font-style: normal;
+  font-family: 'Raleway',  sans-serif"
+  font-style normal;
   font-weight: 800;
   font-size: 18px;
   line-height: 1.17;
@@ -45,6 +45,8 @@ body {
   text-transform: uppercase;
   color: var(--logo-color);
 }
+
+
  .span {
   color: var(--span-color);
 }
@@ -57,8 +59,7 @@ body {
   color: var(--hover-focus-color);
 }
 
-.header-item {
-}
+
 .header-link {
   font-weight: 500;
   font-size: 16px;
@@ -69,10 +70,7 @@ body {
 .header-adress {
   font-style: normal;
 }
-.header-adress-list {
-}
-.header-adress-item {
-}
+
 .header-adress.link:hover,
 .header-adress.link:focus {
   color: var(--hover-focus-color);
@@ -126,14 +124,7 @@ body {
 }
 
 /*  About */
-.about {
-}
-.about-none {
-}
-.about-list {
-}
-.about-item {
-}
+
 .about-title {
   font-style: normal;
   font-weight: 500;
@@ -151,8 +142,7 @@ body {
   color: var(--text-color);
 }
 /* What are we doing */
-.doing {
-}
+
 .doing-title {
   font-weight: 700;
   font-size: 36px;
@@ -162,10 +152,7 @@ body {
   text-transform: capitalize;
   color: var(--sekond-title-color);
 }
-.doing-list {
-}
-.doing-item {
-}
+
 
 /* Our Team */
 .team {
@@ -183,8 +170,7 @@ body {
 .team-list {
     background-color: #FFFFFF;
 }
-.team-item {
-}
+
 .team-text {
   font-weight: 500;
   font-size: 20px;
@@ -238,9 +224,6 @@ body {
 
 /*  Filter */
 
-.page-nav{
-
-}
 
 .btn-one {
   font-family: 'Roboto', sans-serif;
@@ -266,15 +249,10 @@ font-style: normal;
   color: var(--btn-color);
   cursor: pointer;
 }
+
+
 /* Our projects */
-.projects {
-}
-.projects-none {
-}
-.projects-list {
-}
-.projekts-item {
-}
+
 .projects-text {
   font-weight: 500;
   font-size: 20px;
