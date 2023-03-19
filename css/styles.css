@@ -170,7 +170,7 @@ body {
   color: var(--sekond-title-color);
 }
 .team-list {
-    background-color: #FFFFFF;
+    
 }
 
 .team-text {
@@ -180,6 +180,7 @@ body {
   text-align: center;
   letter-spacing: 0.02em;
   color: var(--sekond-title-color);
+  background-color: #FFFFFF
 }
 .team-text-item {
   font-weight: 400;
@@ -188,6 +189,7 @@ body {
   text-align: center;
   letter-spacing: 0.02em;
   color: var(--text-color);
+  background-color: #FFFFFF
 }
 
 /* Footer */
@@ -235,12 +237,13 @@ font-style: normal;
   text-align: center;
   letter-spacing: 0.04em;
   color: var(--btn-color);
+  background-color:#F4F4FD
   cursor: pointer;
 }
 .btn:hover,
 .btn:focus {
   color: #FFFFFF;
-    background-color: var(--hover-focus-color);   
+background-color: var(--hover-focus-color);   
 }
    
 
