@@ -4,16 +4,19 @@
   --text-color: #434455;
   --background-color: #e5e5e5;
   --border-bottom-color: #e7e9fc;
-  --hover-focus-color: blue;
-  --span-color: #4d5ae5;
+  --hover-focus-color: #404bbf;
+  --logo-color: #4d5ae5;
+  --span-color:  #2E2F42;
   --footer-text-color: #f4f4fd;
+  --span-footer-color:#F4F4FD;
   --btn-one-color: #ffffff;
   --btn-color: #4d5ae5;
 }
 
 body {
   font-family: roboto, sans-serif;
-  color: var(--sekond-title-color);
+  color: var(--text-color);
+  background-color: var(--main-title-color);
 }
 .list {
   list-style: none;
@@ -21,9 +24,7 @@ body {
 .link {
   text-decoration: none;
 }
-.page {
-  background: var(--background-color);
-}
+
 /* Header */
 .header {
   background: var(--main-title-color);
@@ -35,17 +36,16 @@ body {
 }
 
 .header-logo {
-  font-family: "Raleway";
+  font-family: "Raleway,  sans-serif";
   font-style: normal;
   font-weight: 800;
   font-size: 18px;
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: var(--sekond-title-color);
+  color: var(--logo-color);
 }
-
-.span {
+-- .span {
   color: var(--span-color);
 }
 .header-logo .link:hover,
@@ -72,11 +72,17 @@ body {
   color: var(--sekond-title-color);
 }
 .header-adress {
+  font-style: normal;
 }
 .header-adress-list {
 }
 .header-adress-item {
 }
+.header-adress-item .link:hover,
+.header-adress-item.link:focus {
+  color: var(--hover-focus-color);
+}
+
 .header-mail {
   font-style: normal;
   font-weight: 400;
@@ -112,7 +118,7 @@ body {
   /* NAVY BLUE */
 }
 .hero-btn {
-  font-family: "Roboto";
+  font-family: "Roboto, sans-serif";
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
@@ -120,6 +126,7 @@ body {
   align-items: center;
   letter-spacing: 0.04em;
   color: var(--main-title-color);
+  background-color: #4D5AE5 
   cursor: pointer;
 }
 
@@ -168,6 +175,7 @@ body {
 
 /* Our Team */
 .team {
+    background-color: #F4F4FD;
 }
 .team-title {
   font-weight: 700;
@@ -180,6 +188,7 @@ body {
   /* NAVY BLUE */
 }
 .team-list {
+    background-color: #FFFFFF;
 }
 .team-item {
 }
@@ -206,7 +215,7 @@ body {
   background: var(--sekond-title-color);
 }
 .footer-logo {
-  font-family: "Raleway";
+  font-family: "Raleway, sans-serif";
   font-style: normal;
   font-weight: 800;
   font-size: 18px;
@@ -214,10 +223,11 @@ body {
   align-items: center;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: var(--footer-text-color);
+   color: var(--logo-color);
 }
-.span {
-  color: var(--span-color);
+
+.span-footer{
+    color: var(--span-footer-color);
 }
 .footer-logo .link:hover,
 .footer-logo .link:focus {
