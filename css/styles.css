@@ -14,7 +14,7 @@
 }
 
 body {
-  font-family: roboto, sans-serif;
+  font-family: "Roboto, sans-serif";
   color: var(--text-color);
   background-color: var(--main-title-color);
 }
@@ -45,7 +45,7 @@ body {
   text-transform: uppercase;
   color: var(--logo-color);
 }
--- .span {
+ .span {
   color: var(--span-color);
 }
 .header-logo .link:hover,
@@ -166,7 +166,6 @@ body {
   letter-spacing: 0.02em;
   text-transform: capitalize;
   color: var(--sekond-title-color);
-  /* NAVY BLUE */
 }
 .doing-list {
 }
@@ -185,7 +184,6 @@ body {
   letter-spacing: 0.02em;
   text-transform: capitalize;
   color: var(--sekond-title-color);
-  /* NAVY BLUE */
 }
 .team-list {
     background-color: #FFFFFF;
@@ -199,7 +197,6 @@ body {
   text-align: center;
   letter-spacing: 0.02em;
   color: var(--sekond-title-color);
-  /* NAVY BLUE */
 }
 .team-text-item {
   font-weight: 400;
@@ -245,12 +242,13 @@ body {
 /* Page Portfolio */
 
 /*  Filter */
-.filter {
+
+.page-nav{
+
 }
-.filter-list {
-}
-.filter-btn-one {
-  font-family: 'Roboto, sans-serif';
+
+.btn-one {
+  font-family: "Roboto, sans-serif";
 font-style: normal;
     font-weight: 500;
   font-size: 16px;
@@ -260,8 +258,8 @@ font-style: normal;
   letter-spacing: 0.04em;
   color: var(--btn-one-color);
 }
-.filter-btn {
-  font-family: 'Roboto, sans-serif';
+.btn {
+  font-family: "Roboto, sans-serif";
 font-style: normal;
     font-weight: 500;
   font-size: 16px;
@@ -286,7 +284,6 @@ font-style: normal;
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: var(--sekond-title-color);
-  /* NAVY BLUE */
 }
 
 .projects-text-item {
