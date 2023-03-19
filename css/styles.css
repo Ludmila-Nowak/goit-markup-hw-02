@@ -170,9 +170,12 @@ body {
   color: var(--sekond-title-color);
 }
 .team-list {
-    
+  background-color: #FFFFFF; 
 }
 
+.team-item{
+
+}
 .team-text {
   font-weight: 500;
   font-size: 20px;
