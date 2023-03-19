@@ -13,7 +13,7 @@
   --btn-color: #4d5ae5;
 }
 
-body {
+.body {
   font-family: "Roboto, sans-serif";
   color: var(--text-color);
   background-color: var(--main-title-color);
